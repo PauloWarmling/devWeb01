@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: rgb(211, 205, 168);
+    background-color: rgb(79, 78, 78);
+}
+
+nav {
+    width: auto;
+    background-color: black;
+    padding: 15px 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 16px;
+}
