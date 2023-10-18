@@ -2,7 +2,7 @@
 session_start();
 
 // Incluir o arquivo de conexão com o banco de dados
-include('conection.php');
+include('./assets/conection.php');
 
 // Verificar se o usuário está autenticado
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
@@ -49,7 +49,7 @@ $result = $db->query($query);
         </table>
         
         <div class="button">
-            <a href="logout.php">Sair</a>
+            <a href="./assets/logout.php">Sair</a>
         </div>
     </div>
 </body>

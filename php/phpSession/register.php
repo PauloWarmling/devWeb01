@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form action="registerUser.php" method="post">
+    <form action="./assets/registerUser.php" method="post">
         <div class="painel">
             <div class="input-wrapper">
                 <label for="username">Nome de Usuário:</label>
