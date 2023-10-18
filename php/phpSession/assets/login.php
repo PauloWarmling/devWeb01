@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['loggedin'] = true;
             $_SESSION['user_id'] = $user_id;
             $_SESSION['username'] = $username;
-            header('Location: painel.php'); // Redireciona para o painel após o login bem-sucedido
+            header('Location: ../painel.php'); // Redireciona para o painel após o login bem-sucedido
         } else {
             $error = "Senha incorreta. Tente novamente.";
             header('Location: error.php?mensagem=' . $error);
