@@ -1,0 +1,11 @@
+create database session;
+use session;
+
+create table usuario(
+	user_id int auto_increment primary key,
+	username varchar(250),
+    userpassword varchar(250)
+);
+
+CREATE UNIQUE INDEX idx_username ON usuario (username);
+SELECT user, host FROM mysql.user;
