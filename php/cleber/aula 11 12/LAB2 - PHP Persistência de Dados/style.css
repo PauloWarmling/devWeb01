@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #360745;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    color: #efeac5;
+}
+
+.app {
+    background-color: #d61c59;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+}
+
+.app h1 {
+    font-weight: 700;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+
+.input-wrapper label {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.input-wrapper input {
+    width: 100%;
+    height: 2rem;
+    border-radius: 8px;
+    background-color: #FAFAFC;
+
+    padding: 5px 1rem;
+}
+
+.submit {
+    display: flex;
+    justify-content: center
+}
+
+.submit input,
+.submit button {
+    background-color: #1b8798;
+    border-radius: 2rem;
+    border-style: none;
+    padding: 1.5rem 4rem;
+}
+
+a{
+    text-decoration: none;
+}
+/* Estilo para a tabela */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2rem 0;
+    background-color: #FAFAFC;
+}
+
+/* Estilo para as células da tabela */
+table th, table td {
+    padding: 0.5rem 1rem;
+    border: 1px solid #000; /* Borda preta nas células */
+    text-align: center; /* Centraliza o texto nas células */
+}
+
+/* Estilo para o cabeçalho da tabela */
+table th {
+    background-color: #1b8798; /* Cor de fundo do cabeçalho */
+    color: #000; /* Cor do texto no cabeçalho */
+    font-weight: 700; /* Negrito no cabeçalho */
+}
+
+/* Estilo para as células de dados alternadas (listras) */
+table tr:nth-child(even) {
+    background-color: #d61c59; /* Cor de fundo das linhas pares */
+}
+
+table tr:nth-child(odd) {
+    background-color: #360745; /* Cor de fundo das linhas ímpares */
+}

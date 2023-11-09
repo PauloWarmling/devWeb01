@@ -1,0 +1,12 @@
+Nome: Maria Silva
+Data de Nascimento: 15/05/1970
+Idade: 53 anos
+-----------------
+Nome: José Silva
+Data de Nascimento: 20/08/1968
+Idade: 55 anos
+-----------------
+Nome: Carlos Silva
+Data de Nascimento: 10/12/1995
+Idade: 27 anos
+-----------------
