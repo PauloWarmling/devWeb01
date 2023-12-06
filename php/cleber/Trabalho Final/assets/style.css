@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #BFD7E4;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-family: "Staatliches", sans-serif;
+}
+
+header {
+    max-width: 100%;
+    height: 26.5rem;
+    background-color: #293241;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+
+    padding: 13.3rem 34.5rem 0;
+}
+
+.header-form {
+    width: 75.0rem;
+    height: 13.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem 2rem 0 0;
+
+
+    background-color: #F67669;
+}
+
+.header-form h1 {
+    font-size: 3.4rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    letter-spacing: .5rem;
+}
+
+.app {
+    width: 75.0rem;
+    height: auto;
+    background-color: white;
+    padding: 5rem 2rem;
+    margin: 0 auto;
+    border-radius: 0 0 2rem 2rem;
+}
+
+fieldset {
+    border-style: none;
+}
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #4E4958;
+}
+
+.input-wrapper label span {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 20px;
+    color: #a5a1ae;
+}
+
+.input-wrapper input {
+    width: 100%;
+    height: 3rem;
+    border-radius: 8px;
+    background-color: #FAFAFC;
+
+    padding: 5px 1rem;
+}
+
+.footer-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-wrapper a {
+    text-decoration: none;
+}
+
+.button-wrapper input,
+.button-wrapper button {
+    font-family: "Staatliches", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    border-style: none;
+    background-color: #F67669;
+    color: #FFF;
+    border-radius: 2rem;
+    padding: 1.5rem 4rem;
+    margin: 0 auto;
+}
+
+.search {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.search label {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #4E4958;
+}
+
+.search input {
+    width: auto;
+    height: 3rem;
+    border-radius: 8px;
+    background-color: #FAFAFC;
+
+    padding: 5px 1rem;
+}
+
+.search button {
+    font-family: "Staatliches", sans-serif;
+    border-style: none;
+    background-color: #F67669;
+    color: #FFF;
+    border-radius: 2rem;
+    padding: 1.5rem;
+}
+
+button, input {
+    cursor: pointer;
+}
